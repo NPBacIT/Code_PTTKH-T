@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj": {}
+    "C:\\Users\\Admin\\Documents\\HK1-Năm4\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj": {}
   },
   "projects": {
-    "D:\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj": {
+    "C:\\Users\\Admin\\Documents\\HK1-Năm4\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\HK1-Năm4\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj",
         "projectName": "banvekhugiaitri_nhom4_pttkhdt",
-        "projectPath": "D:\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\HK1-Năm4\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\HK1-Năm4\\PTTKHDT\\Code_PTTKH-T\\banvekhugiaitri_nhom4_pttkhdt\\banvekhugiaitri_nhom4_pttkhdt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,46 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.SessionState.SessionStateModule": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Server.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.ResponseCaching": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
